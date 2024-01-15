@@ -15,4 +15,36 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+
+  site: {
+    url: "https://www.educloud.academy",
+    name: process.env.NAME || "AWS Community Cameroon",
+    description:
+      process.env.NUXT_PUBLIC_SITE_DESCRIPTION || "aws community Cameroon",
+    defaultLocale: "en",
+    identity: {
+      type: "Organization",
+    },
+    twitter: "@educloudHQ",
+    trailingSlash: true,
+    indexable: true,
+  },
+  vite: {
+    resolve: {
+      alias: {
+        "./runtimeConfig": "./runtimeConfig.browser",
+      },
+    },
+
+    server: {
+      fs: {
+        strict: false,
+      },
+    },
+
+    // temp-fix for dev, it breaks build for now (see: https://github.com/nuxt/framework/issues/4916)
+    define: {
+      "window.global": {},
+    },
+  },
 });
