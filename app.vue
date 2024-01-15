@@ -3,7 +3,7 @@
     <OgImageScreenshot />
 
     <div
-      class="flex h-screen justify-center overflow-hidden bg-[url('/community-day.png?url')] bg-cover bg-no-repeat px-5 max-md:pt-[35%] md:items-center"
+      class="flex h-screen justify-center overflow-y-hidden bg-[url('/community-day.png?url')] bg-cover bg-no-repeat px-5 max-md:pt-[35%] md:items-center"
     >
       <div class="h-fit w-full max-w-md overflow-y-hidden font-bold text-white">
         <div class="flex justify-center">
