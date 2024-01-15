@@ -3,27 +3,27 @@
     <OgImageScreenshot />
 
     <div
-      class="flex h-screen justify-center bg-[url('/community-day.png?url')] bg-cover bg-no-repeat px-5 max-md:pt-[40%] md:items-center"
+      class="flex h-screen justify-center overflow-hidden bg-[url('/community-day.png?url')] bg-cover bg-no-repeat px-5 max-md:pt-[35%] md:items-center"
     >
       <div class="w-full max-w-md font-bold text-white">
         <div class="flex justify-center">
-          <NuxtImg src="/aws-logo.png" height="40" />
+          <NuxtImg class="h-[40px]" src="/aws-logo.png" height="40" />
         </div>
 
-        <h1 class="font text-center text-[35px] max-md:pt-3.5 md:text-[50px]">
+        <h1 class="font text-center text-[30px] max-md:pt-3.5 md:text-[50px]">
           COMMUNITY DAY
         </h1>
         <div class="relative mx-8 max-w-lg md:mx-5">
-          <div class="absolute inset-x-0 top-5 h-[1px] bg-white"></div>
+          <div class="absolute inset-x-0 top-5 h-[2px] bg-white"></div>
           <div
             class="absolute inset-x-0 -top-1 flex justify-center text-center text-[#f28a03]"
           >
             <div class="w-fit bg-[#222f3e] px-5 py-2 md:px-10 md:py-2.5">
-              <h2 class="text-[20px]">CAMEROON</h2>
+              <h2 class="text-[18px] md:text-[20px]">CAMEROON</h2>
             </div>
           </div>
         </div>
-        <h3 class="mt-12 text-center text-[22px] md:text-[25px]">
+        <h3 class="mt-12 text-center text-[20px] md:text-[25px]">
           In-person Edition 2024
         </h3>
         <div class="font-regular my-2.5 flex justify-center text-[18px]">
