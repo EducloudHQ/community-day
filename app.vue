@@ -8,11 +8,6 @@
       <div class="h-fit w-full max-w-md overflow-y-hidden font-bold text-white">
         <div class="flex justify-center">
           <NuxtImg class="mb-2 h-[50px]" src="/aws-logo.png" height="40" />
-          <NuxtImg
-            class="mb-2 h-[50px]"
-            src="/community-day-cam.png"
-            height="40"
-          />
         </div>
 
         <h1 class="font text-center text-[30px] max-md:pt-3.5 md:text-[50px]">
