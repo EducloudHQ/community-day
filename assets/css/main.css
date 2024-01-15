@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  @font-face {
+    font-family: AmazonFontFamily;
+    src: url(./fonts/Amazon_ember_display.otf);
+  }
+
+  body {
+    /* font-family: AmazonFontFamily; */
+  }
+}
