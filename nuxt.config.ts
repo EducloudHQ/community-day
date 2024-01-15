@@ -18,9 +18,8 @@ export default defineNuxtConfig({
 
   site: {
     url: "https://www.educloud.academy",
-    name: process.env.NAME || "AWS Community Cameroon",
-    description:
-      process.env.NUXT_PUBLIC_SITE_DESCRIPTION || "aws community Cameroon",
+    name: "AWS Community Day Cameroon",
+    description: "aws community day Cameroon",
     defaultLocale: "en",
     identity: {
       type: "Organization",

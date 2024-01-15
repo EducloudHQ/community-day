@@ -68,7 +68,7 @@ defineOgImage({
 useSeoMeta({
   ogImage: "/community-day-cameroon.png?url",
   twitterTitle: "AWS Community Day Cameroon",
-  twitterDescription: "community day",
+  twitterDescription: "AWS Community Day Cameroon",
   twitterImage: "/community-day-cameroon.png?url",
   twitterCard: "summary",
 });
