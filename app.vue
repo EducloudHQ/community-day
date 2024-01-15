@@ -5,9 +5,14 @@
     <div
       class="flex h-screen justify-center overflow-hidden bg-[url('/community-day.png?url')] bg-cover bg-no-repeat px-5 max-md:pt-[35%] md:items-center"
     >
-      <div class="h-fit w-full max-w-md overflow-hidden font-bold text-white">
+      <div class="h-fit w-full max-w-md overflow-y-hidden font-bold text-white">
         <div class="flex justify-center">
           <NuxtImg class="mb-2 h-[50px]" src="/aws-logo.png" height="40" />
+          <NuxtImg
+            class="mb-2 h-[50px]"
+            src="/community-day-cam.png"
+            height="40"
+          />
         </div>
 
         <h1 class="font text-center text-[30px] max-md:pt-3.5 md:text-[50px]">
