@@ -33,7 +33,7 @@
         </div>
 
         <div class="flex justify-center py-8 md:py-12">
-          <div class="flex gap-4">
+          <div class="flex gap-3 md:gap-4">
             <TimeOut backgroundcolor="bg-[#9933cc]" :value="days" text="Days" />
             <TimeOut
               backgroundcolor="bg-[#e33205]"
