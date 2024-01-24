@@ -16,7 +16,7 @@
         <div class="relative mx-8 max-w-lg md:mx-5">
           <div class="absolute inset-x-0 top-5 h-[2px] bg-white"></div>
           <div
-            class="absolute inset-x-0 -top-1 flex justify-center text-center text-[#f28a03]"
+            class="absolute inset-x-0 flex justify-center text-center text-[#f28a03] md:-top-1"
           >
             <div class="w-fit bg-[#222f3e] px-5 py-2 md:px-10 md:py-2.5">
               <h2 class="text-[18px] md:text-[20px]">CAMEROON</h2>
@@ -26,11 +26,6 @@
         <h3 class="mt-12 text-center text-[20px] md:text-[25px]">
           In-person Edition 2024
         </h3>
-        <div class="font-regular my-2.5 flex justify-center text-[18px]">
-          <NuxtLink to="https://communityday.awsugcmr.cm/" target="_blanck"
-            >https://communityday.awsugcmr.cm
-          </NuxtLink>
-        </div>
 
         <div class="flex justify-center py-8 md:py-12">
           <div class="flex gap-3 md:gap-4">
@@ -87,7 +82,7 @@ useHead({
 });
 
 import TimeOut from "./components/TimeOut.vue";
-const countDownDate = new Date("Jan 20, 2024 15:37:25").getTime();
+const countDownDate = new Date("Apr 16, 2024 00:00:00").getTime();
 const days = ref(0);
 const hours = ref(0);
 const minutes = ref(0);
