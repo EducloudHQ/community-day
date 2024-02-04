@@ -2626,6 +2626,57 @@
     }
   }
 
+  .main-div {
+    @apply flex h-[90vh] w-full items-center justify-center overflow-y-hidden bg-[url('/community-day.png?url')] bg-cover bg-no-repeat px-5;
+  }
+  .inner-div {
+    @apply h-fit w-full max-w-md overflow-y-hidden font-bold text-white;
+  }
+
+  .time-out {
+    @apply flex h-[65px] w-[65px] items-center justify-center rounded-full p-3 text-center leading-[20px] md:h-24 md:w-24;
+  }
+
+  .time-out1 {
+    @apply text-[13px] md:text-[20px];
+  }
+  .time-out2 {
+    @apply text-[11.5px] md:pt-2 md:text-[16px];
+  }
+  .time-out3 {
+    @apply flex gap-3 md:gap-4;
+  }
+  .time-out4 {
+    @apply flex justify-center py-8 md:py-12;
+  }
+  .in-person {
+    @apply mt-12 text-center text-[20px] md:text-[25px];
+  }
+  .cam {
+    @apply text-[18px] md:text-[20px];
+  }
+  .cam-div {
+    @apply w-fit bg-[#222f3e] px-5 py-2 md:px-10 md:py-2.5;
+  }
+  .cam-outer-div {
+    @apply absolute inset-x-0 flex justify-center text-center text-[#f28a03] md:-top-1;
+  }
+  .seprator {
+    @apply absolute inset-x-0 top-5 h-[2px] bg-white;
+  }
+  .sep-div {
+    @apply relative mx-8 max-w-lg md:mx-5;
+  }
+  .com-day {
+    @apply font text-center text-[30px] max-md:pt-3.5 md:text-[50px];
+  }
+  .img-div {
+    @apply flex justify-center;
+  }
+  .img-logo {
+    @apply mb-2 h-[50px];
+  }
+
   /* line 1056, ../sass/shared/_home.scss */
   #page .section-7 {
     margin: -50px auto 100px;
