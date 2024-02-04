@@ -12,7 +12,7 @@
                   <NuxtImg class="img-logo" src="/aws-logo.png" height="40" />
                 </div>
 
-                <h1 class="com-day">COMMUNITY DAY</h1>
+                <h1 class="com-day font">COMMUNITY DAY</h1>
                 <div class="sep-dev">
                   <div class="seprator"></div>
                   <div class="cam-outer-div">

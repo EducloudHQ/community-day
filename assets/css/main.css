@@ -2668,7 +2668,7 @@
     @apply relative mx-8 max-w-lg md:mx-5;
   }
   .com-day {
-    @apply font text-center text-[30px] max-md:pt-3.5 md:text-[50px];
+    @apply text-center text-[30px] max-md:pt-3.5 md:text-[50px];
   }
   .img-div {
     @apply flex justify-center;
