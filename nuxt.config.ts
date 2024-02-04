@@ -46,4 +46,44 @@ export default defineNuxtConfig({
       "window.global": {},
     },
   },
+  app: {
+    head: {
+      script: [
+        {
+          src: "https://code.jquery.com/jquery-3.1.1.min.js",
+          integrity: "sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=",
+          crossorigin: "anonymous",
+        },
+        {
+          src: "js/site.js",
+        },
+        {
+          src: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+        },
+        {
+          src: "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js",
+          type: "text/javascript",
+        },
+        {
+          src: "https://www.googletagmanager.com/gtag/js?id=UA-123754553-1",
+          async: true,
+        },
+      ],
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css",
+        },
+        {
+          rel: "stylesheet",
+          href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+        },
+        {
+          rel: "stylesheet",
+          href: "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css",
+          type: "text/css",
+        },
+      ],
+    },
+  },
 });
