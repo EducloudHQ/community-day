@@ -2630,11 +2630,11 @@
     @apply flex h-[90vh] w-full items-center justify-center overflow-y-hidden bg-[url('/community-day.png?url')] bg-cover bg-no-repeat px-5;
   }
   .inner-div {
-    @apply h-fit w-full max-w-md overflow-y-hidden font-bold text-white;
+    @apply h-fit w-full min-w-fit max-w-md overflow-y-hidden font-bold text-white;
   }
 
   .time-out {
-    @apply flex h-[65px] w-[65px] items-center justify-center rounded-full p-3 text-center leading-[20px] md:h-24 md:w-24;
+    @apply flex h-[65px] w-[65px] items-center justify-center rounded-full p-3 text-center leading-[20px] md:h-[100px] md:w-[100px];
   }
 
   .time-out1 {
@@ -2665,7 +2665,7 @@
     @apply absolute inset-x-0 top-5 h-[2px] bg-white;
   }
   .sep-div {
-    @apply relative mx-8 max-w-lg md:mx-5;
+    @apply relative mx-8 max-w-lg overflow-hidden md:mx-5;
   }
   .com-day {
     @apply text-center text-[30px] max-md:pt-3.5 md:text-[50px];

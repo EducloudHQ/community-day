@@ -13,7 +13,7 @@
                 </div>
 
                 <h1 class="com-day font">COMMUNITY DAY</h1>
-                <div class="sep-dev">
+                <div class="sep-div">
                   <div class="seprator"></div>
                   <div class="cam-outer-div">
                     <div class="cam-div">
