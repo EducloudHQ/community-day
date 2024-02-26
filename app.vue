@@ -698,7 +698,7 @@
                     <div class="head"><span>Community</span></div>
                   </div>
                   <div class="f1">
-                    <div class="sq bg-[url('/images/user.png?url')]"></div>
+                    <div class="sq bg-[url('/images/educloud.png?url')]"></div>
                   </div>
                   <div class="f1">
                     <div class="sq bg-[url('/images/user.png?url')]"></div>
@@ -925,7 +925,7 @@ const volunteers = ref([
     firstname: "Samantha",
     lastname: "Asongwed",
     twitterLink: "",
-    image: "bg-[url('/images/Samantha.jpeg?url')]",
+    image: "bg-[url('/images/Samantha.png?url')]",
   },
   {
     firstname: "firstn",
