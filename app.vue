@@ -169,14 +169,16 @@
               <div class="card tick_conf with_icon sold border">
                 <h4 class="heading-ttl">Conference</h4>
                 <div class="bg_img"></div>
-                <p>Gives you access to the conference on 27th July, 2019</p>
+                <p>Gives you access to the conference on XXth August, 2024</p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="card tick_work_1 with_icon sold dark border">
                 <h4 class="heading-ttl">Serverless Workshop</h4>
                 <div class="bg_img"></div>
-                <p>Gets you access to Serverless Workshop on 26th July, 2019</p>
+                <p>
+                  Gets you access to Serverless Workshop on XXth August, 2024
+                </p>
               </div>
             </div>
             <div class="col-md-3">
@@ -184,7 +186,7 @@
                 <h4 class="heading-ttl">Deep learning workshop</h4>
                 <div class="bg_img"></div>
                 <p>
-                  Gets you access to Deep learning workshop on 26th July, 2019
+                  Gets you access to Deep learning workshop on XXth August, 2024
                 </p>
               </div>
             </div>
@@ -387,7 +389,7 @@
                 data-label="Conrad Bengaluru"
               >
                 <div class="rand_cls">
-                  <span class="date_ori">Date</span>
+                  <span class="date_ori">XXth August, 2024</span>
                   <h4 class="headin-ttl">Conference</h4>
                 </div>
                 <ul>
@@ -403,7 +405,7 @@
                 data-label="Radisson Blu"
               >
                 <div class="rand_cls">
-                  <span class="date_ori">Date</span>
+                  <span class="date_ori">XXth August, 2024</span>
                   <h4 class="headin-ttl">Workshop</h4>
                 </div>
                 <ul>
