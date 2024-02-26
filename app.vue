@@ -96,24 +96,16 @@
             <div class="left_in">
               <h4 class="headin-ttl">WHO ARE WE?</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut arcu
-                eros, dapibus sit amet tincidunt ut, vestibulum vitae magna.
-                Aenean sagittis nunc rutrum libero hendrerit, a semper tortor
+                AWS User Group Douala, AWS User Group Yaounde and AWS Cloud Club UBa are volunteer based groups in Cameroon that are united by community-led learnings and diversified by the wide variety of tools and technologies closely knit with Amazon Web Services, cloud computing technology, AWS design implementation and servicing, high scalability / performance computing, production use cases of AWS.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut arcu
-                eros, dapibus sit amet tincidunt ut, vestibulum vitae magna.
-                Aenean sagittis nunc rutrum libero hendrerit, a semper tortor
+                AWS Community Days are community-organized cloud education events, featuring technical discussions and demos led by expert AWS users and industry leaders from around the world
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut arcu
-                eros, dapibus sit amet tincidunt ut, vestibulum vitae magna.
-                Aenean sagittis nunc rutrum libero hendrerit, a semper tortor
+                Community-based learning is the best way to enhance the concepts being taught by connecting with enthusiasts in person, thereby sharing first-hand experiences and familiar, accessible examples.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut arcu
-                eros, dapibus sit amet tincidunt ut, vestibulum vitae magna.
-                Aenean sagittis nunc rutrum libero hendrerit, a semper tortor
+                All skill levels are welcome to help accomplish our motto of learning, sharing and networking. Let's join hands to empower this tech community to make it bigger and better!
               </p>
             </div>
           </div>
@@ -124,28 +116,28 @@
               </h4>
               <ul class="circle">
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  arcu eros, dapibus sit amet tincidunt.
+                  Renew, revive & revitalize to exemplify your excitement about the work you do.
                 </li>
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  arcu eros, dapibus sit amet tincidunt.
+                  Learn industry trends and intricacies about innovative implementations from AWS experts.
                 </li>
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  arcu eros, dapibus sit amet tincidunt.
+                  Harness the power of networking with AWS users, DevOps, developers & solutions architects.
                 </li>
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  arcu eros, dapibus sit amet tincidunt.
+                  Network with fellow AWS veterans & techies during breaks.
                 </li>
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  arcu eros, dapibus sit amet tincidunt.
+                  Novice to pioneer on relentless pursuit to learn can rejoice the AWS offerings & success stories under one roof.
                 </li>
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  arcu eros, dapibus sit amet tincidunt.
+                  Take helpful and valuable information back to business.
+                </li>
+                <li>
+                  Gain visibility to get more publicity for your esteemed organisation.
+                </li>
+                <li>
+                  Sporting chance for active participants to win AWS goodies.
                 </li>
               </ul>
             </div>
