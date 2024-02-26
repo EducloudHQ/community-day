@@ -13,15 +13,22 @@
                 </div>
 
                 <h1 class="com-day font">COMMUNITY DAY</h1>
-                <div class="sep-div">
-                  <div class="seprator"></div>
-                  <div class="cam-outer-div">
-                    <div class="cam-div">
-                      <h2 class="cam">CAMEROON</h2>
+
+                <div class="mx-6 mt-7 grid grid-cols-3 md:mx-32">
+                  <div class="h-[2px] w-full bg-white"></div>
+                  <div
+                    class="-ml-3 -mt-3.5 flex w-full justify-center md:-mt-5"
+                  >
+                    <div class="bg-[#222f3e] px-5 py-2 md:px-10 md:py-2.5">
+                      <h2 class="text-[18px] text-[#f28a03] md:text-[20px]">
+                        CAMEROON
+                      </h2>
                     </div>
                   </div>
+                  <div class="h-[2px] w-full bg-white"></div>
                 </div>
-                <h3 class="in-person">In-person Edition 2024</h3>
+
+                <h3 class="in-person mb-5 mt-5">In-person Edition 2024</h3>
 
                 <div class="time-out4">
                   <div class="time-out3">
@@ -423,24 +430,9 @@
                         <p>Time</p>
                       </div>
                     </div>
-                    <div class="th">
+                    <div class="th" colspan="4">
                       <div>
                         <p>Track 1</p>
-                      </div>
-                    </div>
-                    <div class="th">
-                      <div>
-                        <p>Track 2</p>
-                      </div>
-                    </div>
-                    <div class="th">
-                      <div>
-                        <p>Track 3</p>
-                      </div>
-                    </div>
-                    <div class="th">
-                      <div>
-                        <p>Track 4</p>
                       </div>
                     </div>
                   </div>
@@ -481,31 +473,7 @@
                         <p>11:30 AM - 11:50 AM</p>
                       </div>
                     </div>
-                    <div class="td">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="td">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="td">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="td">
+                    <div class="td" colspan="4">
                       <div>
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -534,31 +502,7 @@
                         <p>3:00 PM - 3:40 PM</p>
                       </div>
                     </div>
-                    <div class="td">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="td">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="td">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="td">
+                    <div class="td" colspan="4">
                       <div>
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -574,7 +518,7 @@
                       </div>
                     </div>
 
-                    <div class="td">
+                    <div class="td" colspan="4">
                       <div>
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -613,31 +557,7 @@
                         <p>04:40 PM - 5:20 PM</p>
                       </div>
                     </div>
-                    <div class="td">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="td">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="td">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="td">
+                    <div class="td" colspan="4">
                       <div>
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -931,7 +851,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 defineOgImage({
   url: "/community-day-cameroon.png?url",
   width: 1200,
@@ -1090,4 +1010,91 @@ const speakers = ref([
     image: "/images/user.png?url",
   },
 ]);
+
+// const latt = 12.9767814;
+// const lngg = 77.6197088;
+// const venue = "Conrad";
+
+// function setCoords(latt, lngg, venue) {
+//   this.latt = latt;
+//   this.lngg = lngg;
+//   this.venue = venue;
+//   console.log("clicked");
+//   initMap();
+//   $(this).addClass("hello");
+// }
+// function initMap() {
+//   const uluru = { lat: latt, lng: lngg };
+//   const map = new google.maps.Map(document.getElementById("map"), {
+//     zoom: 15,
+//     center: uluru,
+//     scrollwheel: false,
+//   });
+//   const markerIcon = {
+//     url: "https://image.flaticon.com/icons/svg/252/252025.svg",
+//     scaledSize: new google.maps.Size(50, 50),
+//     origin: new google.maps.Point(0, 0),
+//     anchor: new google.maps.Point(32, 65),
+//     labelOrigin: new google.maps.Point(25, 70),
+//   };
+//   const markerLabel = venue;
+//   const marker = new google.maps.Marker({
+//     map: map,
+//     animation: google.maps.Animation.DROP,
+//     position: uluru,
+//     icon: markerIcon,
+//     disableDefaultUI: true,
+//     label: {
+//       text: markerLabel,
+//       color: "#eb3a44",
+//       fontSize: "16px",
+//       fontWeight: "bold",
+//     },
+//   });
+// }
+
+// $(".buy-ticket-link").on("click", () => {
+//   checkForUtmAvilableOrNot(decodeURIComponent(location.href))
+//     .then((formResolve) => {
+//       window.open("https://konfhub.com/awsdaysblr?" + formResolve, "_blank");
+//     })
+//     .catch((fromReject) => {
+//       window.open("https://konfhub.com/awsdaysblr", "_blank");
+//     });
+// });
+
+// const checkForUtmAvilableOrNot = (_currentUrl) => {
+//   return new Promise((resolve, reject) => {
+//     if (_currentUrl.indexOf("utm_source") > -1) {
+//       const qp = _currentUrl.slice(_currentUrl.indexOf("?") + 1);
+//       const a = qp.split("&");
+//       let _utmPara = "";
+//       a.forEach((v, j) => {
+//         try {
+//           if (j > 2) return;
+//           const _utm = checkForSpecialChar(v);
+//           _utmPara += _utm == 1 ? (j == 2 ? v : v + "&") : v.slice(0, _utm);
+//         } catch (err) {
+//           console.log(err);
+//         }
+//       });
+//       resolve(_utmPara);
+//     } else {
+//       reject(0);
+//     }
+//   });
+// };
+// const specialChars = "<>@!#$?%^&*()+[]{}:;|'\"\\,./~`-";
+// const checkForSpecialChar = function (string) {
+//   let _indexOf = string.length;
+//   for (i = 0; i < specialChars.length; i++) {
+//     if (string.indexOf(specialChars[i]) > -1) {
+//       _indexOf =
+//         _indexOf > string.indexOf(specialChars[i])
+//           ? string.indexOf(specialChars[i])
+//           : _indexOf;
+//     }
+//   }
+//   return _indexOf != string.length ? _indexOf : 1;
+// };
 </script>

@@ -50,6 +50,11 @@ export default defineNuxtConfig({
     head: {
       script: [
         {
+          src: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCSK4vqrOG3caqUr6dxAVhA7MrdMmq63q0&callback=initMap",
+          async: true,
+          defer: true,
+        },
+        {
           src: "https://code.jquery.com/jquery-3.1.1.min.js",
           integrity: "sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=",
           crossorigin: "anonymous",
