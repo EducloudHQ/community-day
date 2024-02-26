@@ -96,16 +96,29 @@
             <div class="left_in">
               <h4 class="headin-ttl">WHO ARE WE?</h4>
               <p>
-                AWS User Group Douala, AWS User Group Yaounde and AWS Cloud Club UBa are volunteer based groups in Cameroon that are united by community-led learnings and diversified by the wide variety of tools and technologies closely knit with Amazon Web Services, cloud computing technology, AWS design implementation and servicing, high scalability / performance computing, production use cases of AWS.
+                AWS User Group Douala, AWS User Group Yaounde and AWS Cloud Club
+                UBa are volunteer based groups in Cameroon that are united by
+                community-led learnings and diversified by the wide variety of
+                tools and technologies closely knit with Amazon Web Services,
+                cloud computing technology, AWS design implementation and
+                servicing, high scalability / performance computing, production
+                use cases of AWS.
               </p>
               <p>
-                AWS Community Days are community-organized cloud education events, featuring technical discussions and demos led by expert AWS users and industry leaders from around the world
+                AWS Community Days are community-organized cloud education
+                events, featuring technical discussions and demos led by expert
+                AWS users and industry leaders from around the world
               </p>
               <p>
-                Community-based learning is the best way to enhance the concepts being taught by connecting with enthusiasts in person, thereby sharing first-hand experiences and familiar, accessible examples.
+                Community-based learning is the best way to enhance the concepts
+                being taught by connecting with enthusiasts in person, thereby
+                sharing first-hand experiences and familiar, accessible
+                examples.
               </p>
               <p>
-                All skill levels are welcome to help accomplish our motto of learning, sharing and networking. Let's join hands to empower this tech community to make it bigger and better!
+                All skill levels are welcome to help accomplish our motto of
+                learning, sharing and networking. Let's join hands to empower
+                this tech community to make it bigger and better!
               </p>
             </div>
           </div>
@@ -116,25 +129,28 @@
               </h4>
               <ul class="circle">
                 <li>
-                  Renew, revive & revitalize to exemplify your excitement about the work you do.
+                  Renew, revive & revitalize to exemplify your excitement about
+                  the work you do.
                 </li>
                 <li>
-                  Learn industry trends and intricacies about innovative implementations from AWS experts.
+                  Learn industry trends and intricacies about innovative
+                  implementations from AWS experts.
                 </li>
                 <li>
-                  Harness the power of networking with AWS users, DevOps, developers & solutions architects.
+                  Harness the power of networking with AWS users, DevOps,
+                  developers & solutions architects.
                 </li>
                 <li>
                   Network with fellow AWS veterans & techies during breaks.
                 </li>
                 <li>
-                  Novice to pioneer on relentless pursuit to learn can rejoice the AWS offerings & success stories under one roof.
+                  Novice to pioneer on relentless pursuit to learn can rejoice
+                  the AWS offerings & success stories under one roof.
                 </li>
+                <li>Take helpful and valuable information back to business.</li>
                 <li>
-                  Take helpful and valuable information back to business.
-                </li>
-                <li>
-                  Gain visibility to get more publicity for your esteemed organisation.
+                  Gain visibility to get more publicity for your esteemed
+                  organisation.
                 </li>
                 <li>
                   Sporting chance for active participants to win AWS goodies.
@@ -418,21 +434,6 @@
                     <div class="th">
                       <div>
                         <p>Track 1</p>
-                      </div>
-                    </div>
-                    <div class="th">
-                      <div>
-                        <p>Track 2</p>
-                      </div>
-                    </div>
-                    <div class="th">
-                      <div>
-                        <p>Track 3</p>
-                      </div>
-                    </div>
-                    <div class="th">
-                      <div>
-                        <p>Track 4</p>
                       </div>
                     </div>
                   </div>
