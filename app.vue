@@ -17,7 +17,7 @@
                 <div class="mx-6 mt-7 grid grid-cols-3 md:mx-32">
                   <div class="h-[2px] w-full bg-white"></div>
                   <div
-                    class="-ml-3 -mt-3.5 flex w-full justify-center md:-mt-5"
+                    class="-ml-3.5 -mt-3.5 flex w-full justify-center md:-mt-5"
                   >
                     <div class="bg-[#222f3e] px-5 py-2 md:px-10 md:py-2.5">
                       <h2 class="text-[18px] text-[#f28a03] md:text-[20px]">
@@ -103,16 +103,29 @@
             <div class="left_in">
               <h4 class="headin-ttl">WHO ARE WE?</h4>
               <p>
-                AWS User Group Douala, AWS User Group Yaounde and AWS Cloud Club UBa are volunteer based groups in Cameroon that are united by community-led learnings and diversified by the wide variety of tools and technologies closely knit with Amazon Web Services, cloud computing technology, AWS design implementation and servicing, high scalability / performance computing, production use cases of AWS.
+                AWS User Group Douala, AWS User Group Yaounde and AWS Cloud Club
+                UBa are volunteer based groups in Cameroon that are united by
+                community-led learnings and diversified by the wide variety of
+                tools and technologies closely knit with Amazon Web Services,
+                cloud computing technology, AWS design implementation and
+                servicing, high scalability / performance computing, production
+                use cases of AWS.
               </p>
               <p>
-                AWS Community Days are community-organized cloud education events, featuring technical discussions and demos led by expert AWS users and industry leaders from around the world
+                AWS Community Days are community-organized cloud education
+                events, featuring technical discussions and demos led by expert
+                AWS users and industry leaders from around the world
               </p>
               <p>
-                Community-based learning is the best way to enhance the concepts being taught by connecting with enthusiasts in person, thereby sharing first-hand experiences and familiar, accessible examples.
+                Community-based learning is the best way to enhance the concepts
+                being taught by connecting with enthusiasts in person, thereby
+                sharing first-hand experiences and familiar, accessible
+                examples.
               </p>
               <p>
-                All skill levels are welcome to help accomplish our motto of learning, sharing and networking. Let's join hands to empower this tech community to make it bigger and better!
+                All skill levels are welcome to help accomplish our motto of
+                learning, sharing and networking. Let's join hands to empower
+                this tech community to make it bigger and better!
               </p>
             </div>
           </div>
@@ -123,25 +136,28 @@
               </h4>
               <ul class="circle">
                 <li>
-                  Renew, revive & revitalize to exemplify your excitement about the work you do.
+                  Renew, revive & revitalize to exemplify your excitement about
+                  the work you do.
                 </li>
                 <li>
-                  Learn industry trends and intricacies about innovative implementations from AWS experts.
+                  Learn industry trends and intricacies about innovative
+                  implementations from AWS experts.
                 </li>
                 <li>
-                  Harness the power of networking with AWS users, DevOps, developers & solutions architects.
+                  Harness the power of networking with AWS users, DevOps,
+                  developers & solutions architects.
                 </li>
                 <li>
                   Network with fellow AWS veterans & techies during breaks.
                 </li>
                 <li>
-                  Novice to pioneer on relentless pursuit to learn can rejoice the AWS offerings & success stories under one roof.
+                  Novice to pioneer on relentless pursuit to learn can rejoice
+                  the AWS offerings & success stories under one roof.
                 </li>
+                <li>Take helpful and valuable information back to business.</li>
                 <li>
-                  Take helpful and valuable information back to business.
-                </li>
-                <li>
-                  Gain visibility to get more publicity for your esteemed organisation.
+                  Gain visibility to get more publicity for your esteemed
+                  organisation.
                 </li>
                 <li>
                   Sporting chance for active participants to win AWS goodies.
@@ -366,7 +382,16 @@
           <div class="left f1 flex-it">
             <h4 class="headin-ttl">Venues</h4>
             <div class="left_in f1">
-              <div id="map"></div>
+              <div id="map" class="bg-red-500">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39075.488833215415!2d9.67222428195586!3d4.0648983417923725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x106112633a511fc1%3A0x73fce4db817adc37!2sCanalOlympia%20Bessengu%C3%A9!5e0!3m2!1sen!2scm!4v1709549640591!5m2!1sen!2scm"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  class="h-full w-full"
+                ></iframe>
+              </div>
             </div>
           </div>
           <div class="right f1">
@@ -413,7 +438,7 @@
         <div class="container">
           <div class="sponsors">
             <h4 class="main-heading-ttl text-center">Agenda</h4>
-            <div class="agenda text-center">
+            <div class="agenda text-left">
               <div class="table">
                 <div class="thead">
                   <div class="tr">
@@ -800,7 +825,83 @@
               <div class="row flex-it vcenter">
                 <div class="col-md-12">
                   <!-- sharing buttons -->
-                  <div class="sharethis-inline-share-buttons"></div>
+                  <div class="sharethis-inline-share-buttons">
+                    <div
+                      class="sharethis-inline-share-buttons st-center st-has-labels st-inline-share-buttons st-animated"
+                      id="st-1"
+                    >
+                      <div class="st-total">
+                        <span class="st-label">139</span>
+                        <span class="st-shares"> Shares </span>
+                      </div>
+                      <div
+                        class="st-btn st-first"
+                        data-network="facebook"
+                        style="display: inline-block"
+                      >
+                        <img
+                          alt="facebook sharing button"
+                          src="https://platform-cdn.sharethis.com/img/facebook.svg"
+                        />
+                        <span class="st-label">Share</span>
+                      </div>
+                      <div
+                        class="st-btn"
+                        data-network="linkedin"
+                        style="display: inline-block"
+                      >
+                        <img
+                          alt="linkedin sharing button"
+                          src="https://platform-cdn.sharethis.com/img/linkedin.svg"
+                        />
+                        <span class="st-label">Share</span>
+                      </div>
+                      <div
+                        class="st-btn"
+                        data-network="twitter"
+                        style="display: inline-block"
+                      >
+                        <img
+                          alt="twitter sharing button"
+                          src="https://platform-cdn.sharethis.com/img/twitter.svg"
+                        />
+                        <span class="st-label">Tweet</span>
+                      </div>
+                      <div
+                        class="st-btn"
+                        data-network="whatsapp"
+                        style="display: inline-block"
+                      >
+                        <img
+                          alt="whatsapp sharing button"
+                          src="https://platform-cdn.sharethis.com/img/whatsapp.svg"
+                        />
+                        <span class="st-label">Share</span>
+                      </div>
+                      <div
+                        class="st-btn st-remove-label"
+                        data-network="sharethis"
+                        style="display: inline-block"
+                      >
+                        <img
+                          alt="sharethis sharing button"
+                          src="https://platform-cdn.sharethis.com/img/sharethis.svg"
+                        />
+                        <span class="st-label">Share</span>
+                      </div>
+                      <div
+                        class="st-btn st-last st-remove-label"
+                        data-network="email"
+                        style="display: inline-block"
+                      >
+                        <img
+                          alt="email sharing button"
+                          src="https://platform-cdn.sharethis.com/img/email.svg"
+                        />
+                        <span class="st-label">Email</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <p class="hide text-center">
