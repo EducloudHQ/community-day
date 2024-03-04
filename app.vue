@@ -176,22 +176,24 @@
               <div class="card tick_conf with_icon sold border">
                 <h4 class="heading-ttl">Conference</h4>
                 <div class="bg_img"></div>
-                <p>Gives you access to the conference on 27th July, 2019</p>
+                <p>Gives you access to the conference on 24th August, 2024</p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="card tick_work_1 with_icon sold dark border">
                 <h4 class="heading-ttl">Serverless Workshop</h4>
                 <div class="bg_img"></div>
-                <p>Gets you access to Serverless Workshop on 26th July, 2019</p>
+                <p>
+                  Gets you access to Serverless Workshop on 24th August, 2024
+                </p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="card tick_work_2 with_icon sold border">
-                <h4 class="heading-ttl">Deep learning workshop</h4>
+                <h4 class="heading-ttl">Generative AI workshop</h4>
                 <div class="bg_img"></div>
                 <p>
-                  Gets you access to Deep learning workshop on 26th July, 2019
+                  Gets you access to Generative AI workshop on 24th August, 2024
                 </p>
               </div>
             </div>
@@ -403,13 +405,16 @@
                 data-label="Conrad Bengaluru"
               >
                 <div class="rand_cls">
-                  <span class="date_ori">Date</span>
+                  <span class="date_ori">24th August, 2024</span>
                   <h4 class="headin-ttl">Conference</h4>
                 </div>
                 <ul>
-                  <li><b>lorem lorem lorem</b></li>
-                  <li><b>lorem lorem lorem</b></li>
-                  <li><b>lorem lorem lorem</b></li>
+                  <li>
+                    <b>CanalOlymia Bessengue</b>
+                  </li>
+                  <li>Gare de Bessengue</li>
+                  <li>Douala, Littoral</li>
+                  <li>Camerooun</li>
                 </ul>
               </div>
               <div
@@ -419,14 +424,16 @@
                 data-label="Radisson Blu"
               >
                 <div class="rand_cls">
-                  <span class="date_ori">Date</span>
+                  <span class="date_ori">24th August, 2024</span>
                   <h4 class="headin-ttl">Workshop</h4>
                 </div>
                 <ul>
-                  <li><b>lorem lorem lorem</b></li>
-                  <li><b>lorem lorem lorem</b></li>
-                  <li><b>lorem lorem lorem</b></li>
-                  <li><b>lorem lorem lorem</b></li>
+                  <li>
+                    <b>CanalOlymia Bessengue</b>
+                  </li>
+                  <li>Gare de Bessengue</li>
+                  <li>Douala, Littoral</li>
+                  <li>Camerooun</li>
                 </ul>
               </div>
               <div class="marked"></div>
@@ -463,15 +470,11 @@
                     </div>
                     <div class="td" colspan="4">
                       <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Ut arcu eros, dapibus sit amet tincidunt ut,
-                          vestibulum vitae magna. Aenean
-                        </p>
+                        <p>Check-In and Networking</p>
                       </div>
                     </div>
                   </div>
-                  <div class="tr gap">
+                  <div class="tr">
                     <div class="td idx">
                       <div>
                         <p>11:00 AM - 11:30 AM</p>
@@ -479,7 +482,7 @@
                     </div>
                     <div class="td" colspan="4">
                       <div>
-                        <p>Tea Break</p>
+                        <p>Welcome</p>
                       </div>
                     </div>
                   </div>
@@ -492,10 +495,7 @@
                     </div>
                     <div class="td" colspan="4">
                       <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
+                        <p>Keynote: TBD</p>
                       </div>
                     </div>
                   </div>
@@ -508,7 +508,7 @@
                     </div>
                     <div class="td" colspan="4">
                       <div>
-                        <p>Lunch</p>
+                        <p>Sessions: TBD</p>
                       </div>
                     </div>
                   </div>
@@ -521,10 +521,7 @@
                     </div>
                     <div class="td" colspan="4">
                       <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
+                        <p>Tea Break</p>
                       </div>
                     </div>
                   </div>
@@ -537,34 +534,7 @@
 
                     <div class="td" colspan="4">
                       <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="td">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="td">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="td">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
+                        <p>Sessions: TBD</p>
                       </div>
                     </div>
                   </div>
@@ -576,10 +546,7 @@
                     </div>
                     <div class="td" colspan="4">
                       <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
+                        <p>Launch</p>
                       </div>
                     </div>
                   </div>
@@ -591,7 +558,7 @@
                     </div>
                     <div class="td" colspan="4">
                       <div>
-                        <p>Networking</p>
+                        <p>Sessions, Workshops, AWS Game Day: TBD</p>
                       </div>
                     </div>
                   </div>
@@ -625,8 +592,8 @@
                   <h4 class="heading-ttl">Serverless Workshop</h4>
                   <div class="bg_img"></div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectet Lorem ipsum dolor sit
-                    amet
+                    How to build GraphQL APIs with AWS AppSync and JavaScript
+                    Resolvers
                   </p>
                   <button
                     type="button"
@@ -641,12 +608,9 @@
 
               <div class="col-md-3">
                 <div class="card tick_work_2 with_icon">
-                  <h4 class="heading-ttl">Deep learning workshop</h4>
+                  <h4 class="heading-ttl">Generative AI workshop</h4>
                   <div class="bg_img"></div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectet Lorem ipsum dolor sit
-                    amet
-                  </p>
+                  <p>Learn how to create generative AI Apps with PartyRock</p>
                   <button
                     type="button"
                     data-toggle="modal"
@@ -719,7 +683,9 @@
                   </div>
 
                   <div class="f1">
-                    <div class="sq bg-[url('/images/user.png?url')]"></div>
+                    <div
+                      class="sq bg-[url('/images/serverlessguru.png?url')]"
+                    ></div>
                   </div>
                   <div class="f1">
                     <div class="sq bg-[url('/images/user.png?url')]"></div>
@@ -741,7 +707,7 @@
                     <div class="head"><span>Community</span></div>
                   </div>
                   <div class="f1">
-                    <div class="sq bg-[url('/images/user.png?url')]"></div>
+                    <div class="sq bg-[url('/images/educloud.png?url')]"></div>
                   </div>
                   <div class="f1">
                     <div class="sq bg-[url('/images/user.png?url')]"></div>
@@ -993,64 +959,58 @@ setInterval(function () {
 
 const volunteers = ref([
   {
-    firstname: "firstn",
-    lastname: "lastn",
+    firstname: "Rosius",
+    lastname: "Ndimofor",
     twitterLink: "",
-    image: "bg-[url('/images/user.png?url')]",
+    image: "bg-[url('/images/Rosius.jpeg?url')]",
   },
   {
-    firstname: "firstn",
-    lastname: "lastn",
+    firstname: "Cyril ",
+    lastname: "Bandolo",
     twitterLink: "",
-    image: "bg-[url('/images/user.png?url')]",
+    image: "bg-[url('/images/Cyril.jpeg?url')]",
   },
   {
-    firstname: "firstn",
-    lastname: "lastn",
+    firstname: "Ngumih ",
+    lastname: "Fien",
     twitterLink: "",
-    image: "bg-[url('/images/user.png?url')]",
+    image: "bg-[url('/images/Ngumih.jpeg?url')]",
   },
   {
-    firstname: "firstn",
-    lastname: "lastn",
+    firstname: "Delia",
+    lastname: "Ayoko",
     twitterLink: "",
-    image: "bg-[url('/images/user.png?url')]",
+    image: "bg-[url('/images/Delia.jpeg?url')]",
   },
   {
-    firstname: "firstn",
-    lastname: "lastn",
+    firstname: "Desmond",
+    lastname: "Chi Che",
     twitterLink: "",
-    image: "bg-[url('/images/user.png?url')]",
+    image: "bg-[url('/images/ChiChe.jpeg?url')]",
   },
   {
-    firstname: "firstn",
-    lastname: "lastn",
+    firstname: "Nkwenti",
+    lastname: "Fon Nkwenti",
     twitterLink: "",
-    image: "bg-[url('/images/user.png?url')]",
+    image: "bg-[url('/images/Nkwenti.jpeg?url')]",
   },
   {
-    firstname: "firstn",
-    lastname: "lastn",
+    firstname: "Paula",
+    lastname: "Wakabi",
     twitterLink: "",
-    image: "bg-[url('/images/user.png?url')]",
+    image: "bg-[url('/images/Paula.jpeg?url')]",
   },
   {
-    firstname: "firstn",
-    lastname: "lastn",
+    firstname: "Antoine",
+    lastname: "Choula",
     twitterLink: "",
-    image: "bg-[url('/images/user.png?url')]",
+    image: "bg-[url('/images/Antoine.jpeg?url')]",
   },
   {
-    firstname: "firstn",
-    lastname: "lastn",
+    firstname: "Samantha",
+    lastname: "Asongwed",
     twitterLink: "",
-    image: "bg-[url('/images/user.png?url')]",
-  },
-  {
-    firstname: "firstn",
-    lastname: "lastn",
-    twitterLink: "",
-    image: "bg-[url('/images/user.png?url')]",
+    image: "bg-[url('/images/Samantha.png?url')]",
   },
   {
     firstname: "firstn",
@@ -1068,39 +1028,39 @@ const volunteers = ref([
 
 const speakers = ref([
   {
-    name: "firstn lastn",
-    role: "Developer Advocate, AWS",
-    image: "/images/user.png?url",
+    name: "Cyril Bandolo",
+    role: "Serverless Developer, Serverless Guru",
+    image: "/images/Cyril.jpeg?url",
   },
   {
     name: "firstn lastn",
     role: "Developer Advocate, AWS",
-    image: "/images/user.png?url",
+    image: "/images/user.jpeg?url",
   },
   {
     name: "firstn lastn",
     role: "Developer Advocate, AWS",
-    image: "/images/user.png?url",
+    image: "/images/user.jpeg?url",
   },
   {
     name: "firstn lastn",
     role: "Developer Advocate, AWS",
-    image: "/images/user.png?url",
+    image: "/images/user.jpeg?url",
   },
   {
     name: "firstn lastn",
     role: "Developer Advocate, AWS",
-    image: "/images/user.png?url",
+    image: "/images/user.jpeg?url",
   },
   {
     name: "firstn lastn",
     role: "Developer Advocate, AWS",
-    image: "/images/user.png?url",
+    image: "/images/user.jpeg?url",
   },
   {
     name: "firstn lastn",
     role: "Developer Advocate, AWS",
-    image: "/images/user.png?url",
+    image: "/images/user.jpeg?url",
   },
 ]);
 
