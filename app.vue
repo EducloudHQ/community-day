@@ -384,11 +384,11 @@
           <div class="left f1 flex-it">
             <h4 class="headin-ttl">Venues</h4>
             <div class="left_in f1">
-              <div id="map" class="bg-red-500">
+              <div id="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39075.488833215415!2d9.67222428195586!3d4.0648983417923725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x106112633a511fc1%3A0x73fce4db817adc37!2sCanalOlympia%20Bessengu%C3%A9!5e0!3m2!1sen!2scm!4v1709549640591!5m2!1sen!2scm"
                   style="border: 0"
-                  allowfullscreen=""
+                  allowfullscreen
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
                   class="h-full w-full"
@@ -772,7 +772,7 @@
                     <NuxtLink target="_blank" :to="person.twitterLink">
                       <i class="icon large ion-logo-twitter"></i>@{{
                         person.twitterLink.split("/")[
-                          person.twitterLink.lenght - 1
+                          person.twitterLink.length - 1
                         ]
                       }}</NuxtLink
                     >
@@ -791,81 +791,79 @@
               <div class="row flex-it vcenter">
                 <div class="col-md-12">
                   <!-- sharing buttons -->
-                  <div class="sharethis-inline-share-buttons">
+                  <div
+                    class="sharethis-inline-share-buttons st-center st-has-labels st-inline-share-buttons st-animated"
+                    id="st-1"
+                  >
+                    <div class="st-total st-hidden">
+                      <span class="st-label"></span>
+                      <span class="st-shares"> Shares </span>
+                    </div>
                     <div
-                      class="sharethis-inline-share-buttons st-center st-has-labels st-inline-share-buttons st-animated"
-                      id="st-1"
+                      class="st-btn st-first"
+                      data-network="facebook"
+                      style="display: inline-block"
                     >
-                      <div class="st-total">
-                        <span class="st-label">139</span>
-                        <span class="st-shares"> Shares </span>
-                      </div>
-                      <div
-                        class="st-btn st-first"
-                        data-network="facebook"
-                        style="display: inline-block"
-                      >
-                        <img
-                          alt="facebook sharing button"
-                          src="https://platform-cdn.sharethis.com/img/facebook.svg"
-                        />
-                        <span class="st-label">Share</span>
-                      </div>
-                      <div
-                        class="st-btn"
-                        data-network="linkedin"
-                        style="display: inline-block"
-                      >
-                        <img
-                          alt="linkedin sharing button"
-                          src="https://platform-cdn.sharethis.com/img/linkedin.svg"
-                        />
-                        <span class="st-label">Share</span>
-                      </div>
-                      <div
-                        class="st-btn"
-                        data-network="twitter"
-                        style="display: inline-block"
-                      >
-                        <img
-                          alt="twitter sharing button"
-                          src="https://platform-cdn.sharethis.com/img/twitter.svg"
-                        />
-                        <span class="st-label">Tweet</span>
-                      </div>
-                      <div
-                        class="st-btn"
-                        data-network="whatsapp"
-                        style="display: inline-block"
-                      >
-                        <img
-                          alt="whatsapp sharing button"
-                          src="https://platform-cdn.sharethis.com/img/whatsapp.svg"
-                        />
-                        <span class="st-label">Share</span>
-                      </div>
-                      <div
-                        class="st-btn st-remove-label"
-                        data-network="sharethis"
-                        style="display: inline-block"
-                      >
-                        <img
-                          alt="sharethis sharing button"
-                          src="https://platform-cdn.sharethis.com/img/sharethis.svg"
-                        />
-                        <span class="st-label">Share</span>
-                      </div>
-                      <div
-                        class="st-btn st-last st-remove-label"
-                        data-network="email"
-                        style="display: inline-block"
-                      >
-                        <img
-                          alt="email sharing button"
-                          src="https://platform-cdn.sharethis.com/img/email.svg"
-                        />
-                        <span class="st-label">Email</span>
-                      </div>
+                      <img
+                        alt="facebook sharing button"
+                        src="https://platform-cdn.sharethis.com/img/facebook.svg"
+                      />
+                      <span class="st-label">Share</span>
+                    </div>
+                    <div
+                      class="st-btn"
+                      data-network="twitter"
+                      style="display: inline-block"
+                    >
+                      <img
+                        alt="twitter sharing button"
+                        src="https://platform-cdn.sharethis.com/img/twitter.svg"
+                      />
+                      <span class="st-label">Tweet</span>
+                    </div>
+                    <div
+                      class="st-btn"
+                      data-network="email"
+                      style="display: inline-block"
+                    >
+                      <img
+                        alt="email sharing button"
+                        src="https://platform-cdn.sharethis.com/img/email.svg"
+                      />
+                      <span class="st-label">Email</span>
+                    </div>
+                    <div
+                      class="st-btn"
+                      data-network="sharethis"
+                      style="display: inline-block"
+                    >
+                      <img
+                        alt="sharethis sharing button"
+                        src="https://platform-cdn.sharethis.com/img/sharethis.svg"
+                      />
+                      <span class="st-label">Share</span>
+                    </div>
+                    <div
+                      class="st-btn"
+                      data-network="linkedin"
+                      style="display: inline-block"
+                    >
+                      <img
+                        alt="linkedin sharing button"
+                        src="https://platform-cdn.sharethis.com/img/linkedin.svg"
+                      />
+                      <span class="st-label">Share</span>
+                    </div>
+                    <div
+                      class="st-btn st-last"
+                      data-network="messenger"
+                      style="display: inline-block"
+                    >
+                      <img
+                        alt="messenger sharing button"
+                        src="https://platform-cdn.sharethis.com/img/messenger.svg"
+                      />
+                      <span class="st-label">Share</span>
                     </div>
                   </div>
                 </div>
@@ -910,7 +908,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 defineOgImage({
   url: "/community-day-cameroon.png?url",
   width: 1200,
@@ -1012,18 +1010,6 @@ const volunteers = ref([
     twitterLink: "",
     image: "bg-[url('/images/Samantha.png?url')]",
   },
-  {
-    firstname: "firstn",
-    lastname: "lastn",
-    twitterLink: "",
-    image: "bg-[url('/images/user.png?url')]",
-  },
-  {
-    firstname: "firstn",
-    lastname: "lastn",
-    twitterLink: "",
-    image: "bg-[url('/images/user.png?url')]",
-  },
 ]);
 
 const speakers = ref([
@@ -1063,91 +1049,11 @@ const speakers = ref([
     image: "/images/user.jpeg?url",
   },
 ]);
-
-// const latt = 12.9767814;
-// const lngg = 77.6197088;
-// const venue = "Conrad";
-
-// function setCoords(latt, lngg, venue) {
-//   this.latt = latt;
-//   this.lngg = lngg;
-//   this.venue = venue;
-//   console.log("clicked");
-//   initMap();
-//   $(this).addClass("hello");
-// }
-// function initMap() {
-//   const uluru = { lat: latt, lng: lngg };
-//   const map = new google.maps.Map(document.getElementById("map"), {
-//     zoom: 15,
-//     center: uluru,
-//     scrollwheel: false,
-//   });
-//   const markerIcon = {
-//     url: "https://image.flaticon.com/icons/svg/252/252025.svg",
-//     scaledSize: new google.maps.Size(50, 50),
-//     origin: new google.maps.Point(0, 0),
-//     anchor: new google.maps.Point(32, 65),
-//     labelOrigin: new google.maps.Point(25, 70),
-//   };
-//   const markerLabel = venue;
-//   const marker = new google.maps.Marker({
-//     map: map,
-//     animation: google.maps.Animation.DROP,
-//     position: uluru,
-//     icon: markerIcon,
-//     disableDefaultUI: true,
-//     label: {
-//       text: markerLabel,
-//       color: "#eb3a44",
-//       fontSize: "16px",
-//       fontWeight: "bold",
-//     },
-//   });
-// }
-
-// $(".buy-ticket-link").on("click", () => {
-//   checkForUtmAvilableOrNot(decodeURIComponent(location.href))
-//     .then((formResolve) => {
-//       window.open("https://konfhub.com/awsdaysblr?" + formResolve, "_blank");
-//     })
-//     .catch((fromReject) => {
-//       window.open("https://konfhub.com/awsdaysblr", "_blank");
-//     });
-// });
-
-// const checkForUtmAvilableOrNot = (_currentUrl) => {
-//   return new Promise((resolve, reject) => {
-//     if (_currentUrl.indexOf("utm_source") > -1) {
-//       const qp = _currentUrl.slice(_currentUrl.indexOf("?") + 1);
-//       const a = qp.split("&");
-//       let _utmPara = "";
-//       a.forEach((v, j) => {
-//         try {
-//           if (j > 2) return;
-//           const _utm = checkForSpecialChar(v);
-//           _utmPara += _utm == 1 ? (j == 2 ? v : v + "&") : v.slice(0, _utm);
-//         } catch (err) {
-//           console.log(err);
-//         }
-//       });
-//       resolve(_utmPara);
-//     } else {
-//       reject(0);
-//     }
-//   });
-// };
-// const specialChars = "<>@!#$?%^&*()+[]{}:;|'\"\\,./~`-";
-// const checkForSpecialChar = function (string) {
-//   let _indexOf = string.length;
-//   for (i = 0; i < specialChars.length; i++) {
-//     if (string.indexOf(specialChars[i]) > -1) {
-//       _indexOf =
-//         _indexOf > string.indexOf(specialChars[i])
-//           ? string.indexOf(specialChars[i])
-//           : _indexOf;
-//     }
-//   }
-//   return _indexOf != string.length ? _indexOf : 1;
-// };
 </script>
+<style lang="css">
+@media only screen and (max-width: 991px) {
+  .st-label {
+    display: none;
+  }
+}
+</style>
