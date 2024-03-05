@@ -980,9 +980,10 @@ const speakers = ref([
 ]);
 </script>
 <style lang="css">
-@media only screen and (max-width: 991px) {
-  .st-label {
-    display: none;
-  }
+.popup_popup {
+  display: none !important;
+}
+.st-cmp-settings {
+  display: none !important;
 }
 </style>
