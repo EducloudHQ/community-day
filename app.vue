@@ -981,7 +981,6 @@ const speakers = ref([
 </script>
 <style lang="css">
 .st-cmp-overlay,
-.st-cmp-content,
 .st-cmp-settings,
 .popup_popup {
   display: none !important;
