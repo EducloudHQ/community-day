@@ -770,7 +770,7 @@
                 >
                   <div :class="person.image" class="img">
                     <NuxtLink target="_blank" :to="person.twitterLink">
-                      <i class="icon large ion-logo-twitter"></i>@{{
+                      <i class="icon large ion-logo-linkedin"></i>@{{
                         person.twitterLink.split("/")[
                           person.twitterLink.length - 1
                         ]
@@ -794,78 +794,7 @@
                   <div
                     class="sharethis-inline-share-buttons st-center st-has-labels st-inline-share-buttons st-animated"
                     id="st-1"
-                  >
-                    <div class="st-total st-hidden">
-                      <span class="st-label"></span>
-                      <span class="st-shares"> Shares </span>
-                    </div>
-                    <div
-                      class="st-btn st-first"
-                      data-network="facebook"
-                      style="display: inline-block"
-                    >
-                      <img
-                        alt="facebook sharing button"
-                        src="https://platform-cdn.sharethis.com/img/facebook.svg"
-                      />
-                      <span class="st-label">Share</span>
-                    </div>
-                    <div
-                      class="st-btn"
-                      data-network="twitter"
-                      style="display: inline-block"
-                    >
-                      <img
-                        alt="twitter sharing button"
-                        src="https://platform-cdn.sharethis.com/img/twitter.svg"
-                      />
-                      <span class="st-label">Tweet</span>
-                    </div>
-                    <div
-                      class="st-btn"
-                      data-network="email"
-                      style="display: inline-block"
-                    >
-                      <img
-                        alt="email sharing button"
-                        src="https://platform-cdn.sharethis.com/img/email.svg"
-                      />
-                      <span class="st-label">Email</span>
-                    </div>
-                    <div
-                      class="st-btn"
-                      data-network="sharethis"
-                      style="display: inline-block"
-                    >
-                      <img
-                        alt="sharethis sharing button"
-                        src="https://platform-cdn.sharethis.com/img/sharethis.svg"
-                      />
-                      <span class="st-label">Share</span>
-                    </div>
-                    <div
-                      class="st-btn"
-                      data-network="linkedin"
-                      style="display: inline-block"
-                    >
-                      <img
-                        alt="linkedin sharing button"
-                        src="https://platform-cdn.sharethis.com/img/linkedin.svg"
-                      />
-                      <span class="st-label">Share</span>
-                    </div>
-                    <div
-                      class="st-btn st-last"
-                      data-network="messenger"
-                      style="display: inline-block"
-                    >
-                      <img
-                        alt="messenger sharing button"
-                        src="https://platform-cdn.sharethis.com/img/messenger.svg"
-                      />
-                      <span class="st-label">Share</span>
-                    </div>
-                  </div>
+                  ></div>
                 </div>
               </div>
               <p class="hide text-center">

@@ -50,6 +50,11 @@ export default defineNuxtConfig({
     head: {
       script: [
         {
+          src: "https://platform-api.sharethis.com/js/sharethis.js#property=65e6c450c6f7450019c09095&product=inline-share-buttons&source=platform",
+          type: "text/javascript",
+          async: true,
+        },
+        {
           src: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCSK4vqrOG3caqUr6dxAVhA7MrdMmq63q0&callback=initMap",
           async: true,
           defer: true,
