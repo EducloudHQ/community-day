@@ -28,7 +28,7 @@
                   <div class="h-[2px] w-full bg-white"></div>
                 </div>
 
-                <h3 class="in-person mb-5 mt-5">In-person Edition 2024</h3>
+                <h3 class="in-person mb-5 mt-5">13th July 2024, Douala</h3>
 
                 <div class="time-out4">
                   <div class="time-out3">
@@ -65,11 +65,8 @@
           </li>
           <ul>
             <li>
-              <a href="#">About Community Day</a>
+              <a href="#about-community-day">About Community Day</a>
             </li>
-            <!-- <li>
-            <a href="#cfp">CFP</a>
-          </li> -->
             <li>
               <a href="#venues">Venues</a>
             </li>
@@ -97,7 +94,7 @@
           </ul>
         </div>
       </div>
-      <div class="section section-2">
+      <div id="about-community-day" class="section section-2">
         <div class="flex-it container">
           <div id="com_info" class="f1 left">
             <div class="left_in">
@@ -176,16 +173,14 @@
               <div class="card tick_conf with_icon sold border">
                 <h4 class="heading-ttl">Conference</h4>
                 <div class="bg_img"></div>
-                <p>Gives you access to the conference on 24th August, 2024</p>
+                <p>Gives you access to the conference on 13th July, 2024</p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="card tick_work_1 with_icon sold dark border">
                 <h4 class="heading-ttl">Serverless Workshop</h4>
                 <div class="bg_img"></div>
-                <p>
-                  Gets you access to Serverless Workshop on 24th August, 2024
-                </p>
+                <p>Gets you access to Serverless Workshop on 13th July, 2024</p>
               </div>
             </div>
             <div class="col-md-3">
@@ -193,7 +188,7 @@
                 <h4 class="heading-ttl">Generative AI workshop</h4>
                 <div class="bg_img"></div>
                 <p>
-                  Gets you access to Generative AI workshop on 24th August, 2024
+                  Gets you access to Generative AI workshop on 13th July, 2024
                 </p>
               </div>
             </div>
@@ -405,12 +400,12 @@
                 data-label="Conrad Bengaluru"
               >
                 <div class="rand_cls">
-                  <span class="date_ori">24th August, 2024</span>
+                  <span class="date_ori">13th July 2024</span>
                   <h4 class="headin-ttl">Conference</h4>
                 </div>
                 <ul>
                   <li>
-                    <b>CanalOlymia Bessengue</b>
+                    <b class="text-xl font-extrabold">CanalOlympia Bessengue</b>
                   </li>
                   <li>Gare de Bessengue</li>
                   <li>Douala, Littoral</li>
@@ -424,12 +419,12 @@
                 data-label="Radisson Blu"
               >
                 <div class="rand_cls">
-                  <span class="date_ori">24th August, 2024</span>
+                  <span class="date_ori">13th July, 2024</span>
                   <h4 class="headin-ttl">Workshop</h4>
                 </div>
                 <ul>
                   <li>
-                    <b>CanalOlymia Bessengue</b>
+                    <b>CanalOlympia Bessengue</b>
                   </li>
                   <li>Gare de Bessengue</li>
                   <li>Douala, Littoral</li>
@@ -808,7 +803,7 @@
       </div>
     </div>
     <div class="floating_toast">
-      <a href="#">About Community Day</a>
+      <a href="#about-community-day">About Community Day</a>
     </div>
     <div
       id="myModal"
@@ -867,7 +862,8 @@ useHead({
 });
 
 // import TimeOut from "./components/TimeOut.vue";
-const countDownDate = new Date("Apr 16, 2024 00:00:00").getTime();
+
+const countDownDate = new Date("Jul 13, 2024 00:00:00").getTime();
 const days = ref(0);
 const hours = ref(0);
 const minutes = ref(0);
@@ -939,6 +935,12 @@ const volunteers = ref([
     twitterLink: "",
     image: "bg-[url('/images/Samantha.png?url')]",
   },
+  {
+    firstname: "Kongbi",
+    lastname: "Zion",
+    twitterLink: "",
+    image: "bg-[url('/images/zion.png?url')]",
+  },
 ]);
 
 const speakers = ref([
@@ -948,34 +950,9 @@ const speakers = ref([
     image: "/images/Cyril.jpeg?url",
   },
   {
-    name: "firstn lastn",
-    role: "Developer Advocate, AWS",
-    image: "/images/user.jpeg?url",
-  },
-  {
-    name: "firstn lastn",
-    role: "Developer Advocate, AWS",
-    image: "/images/user.jpeg?url",
-  },
-  {
-    name: "firstn lastn",
-    role: "Developer Advocate, AWS",
-    image: "/images/user.jpeg?url",
-  },
-  {
-    name: "firstn lastn",
-    role: "Developer Advocate, AWS",
-    image: "/images/user.jpeg?url",
-  },
-  {
-    name: "firstn lastn",
-    role: "Developer Advocate, AWS",
-    image: "/images/user.jpeg?url",
-  },
-  {
-    name: "firstn lastn",
-    role: "Developer Advocate, AWS",
-    image: "/images/user.jpeg?url",
+    name: "Ndimofor Rosius",
+    role: "AWS Hero",
+    image: "/images/Rosius.jpeg?url",
   },
 ]);
 </script>
