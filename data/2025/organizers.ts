@@ -42,8 +42,8 @@ export const organizers = [
     linkedin: "https://www.linkedin.com/in/clearance-ngwe-7b5b9513b/",
   },
   {
-    name: "Domfang Cabrel Lesage",
-    group: "AWS Cloud Clubs ESTLC",
+    name: "Cabrel DOMFANG",
+    group: "AWS Cloud Club at ESTLC",
     image: "/2025/organizers/cabrel.png",
     linkedin: "https://www.linkedin.com/in/cabrellesage/",
   },
