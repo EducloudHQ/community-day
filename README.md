@@ -81,3 +81,4 @@ This project is maintained by the AWS User Groups in Cameroon. For updates or co
 - [AWS User Group Douala](https://www.meetup.com/awsugdouala)
 - [AWS User Group Yaounde](https://www.meetup.com/aws-user-group-yaounde)
 - [AWS Cloud Clubs UBa](https://www.meetup.com/aws-cloud-club-at-the-university-of-bamenda)
+- [AWS Cloud Club – ESTLC](https://www.meetup.com/aws-cloud-club-at-estlc)
